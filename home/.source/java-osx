@@ -1,8 +1,2 @@
-## java home
-export JAVA_HOME=$(/usr/libexec/java_home)
-
-function java_use() {
-    export JAVA_HOME=$(/usr/libexec/java_home -v $1)
-    java -version
-}
+## java home - using jenv instead
 
